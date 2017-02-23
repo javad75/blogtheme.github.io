@@ -69,9 +69,9 @@ body{
   margin-bottom: 30px;
   border-radius: 2px;
 }
-.main-index-art article p, div, .main-index-art article span{
-  font-size: 16px;
-  font-weight: 300;
+.main-index-art article p, .main-index-art article div, .main-index-art article span{
+  font-size: 15px !important;
+  font-weight: 300 !important;
 }
 .main-index-art article header h2{
   border-bottom: 1px solid #dcdcdc;
@@ -79,12 +79,30 @@ body{
   color: #292929;
   font-size: 24px;
 }
-
+.title-blog{
+  color: #2f2f2f;
+  font-size: 30px;
+  margin-top: 10px;
+}
 .asidebox{
   padding: 10px 20px;
   border-radius: 2px;
   background-color: #fff;
   margin-bottom: 10px;
+}
+.asidebox a{
+  color: #505050;
+
+}
+.asidebox a p{
+  color: #505050;
+  margin-bottom: 5px;
+}
+.asidebox .aside-title{
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  display: block;
 }
 .redmore{
   border-radius: 2px;
@@ -93,6 +111,20 @@ body{
   padding: 2px 5px;
   color: #ff0043;
   border: 1px solid #ff0043;
+  margin-top: 15px;
+}
+.meta-data{
+  display: block;
+}
+.meta-date-time, .date-time{
+  display: inline-block;
+}
+.meta-date-time, .meta-post-author, .meta-post-author{
+  display: inline-block;
+}
+.meta-post-author {
+  border-right: 1px solid #c3c3c3;
+  padding: 0 4px;
 }
 .meta-data, .meta-data span{
   color: #adadad;
