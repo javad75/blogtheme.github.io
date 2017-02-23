@@ -177,6 +177,12 @@ body{
   border: 1px solid #d0d0d0;
   margin-bottom: 50px;
 }
+.bComForm .hasComment {
+    margin-left: 0 !important;
+}
+.commentAvatar{
+  display: none !important;
+}
 .main-index-art{
 
 }
