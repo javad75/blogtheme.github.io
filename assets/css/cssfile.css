@@ -97,6 +97,7 @@ body{
 .asidebox a p{
   color: #505050;
   margin-bottom: 5px;
+  font-size: 14px;
 }
 .asidebox .aside-title{
   font-size: 22px;
