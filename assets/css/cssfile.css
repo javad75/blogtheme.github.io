@@ -52,6 +52,12 @@
 *, html, body, h1, h2, h3, h4, h5, h6, span, p, div, input{
   font-family: IRANSans, Tahoma, sans-serif, Arial;
 }
+h2{
+  font-size: 22px;
+}
+h3{
+  font-size: 18px;
+}
 body{
   background-color: #eee;
 }
@@ -60,9 +66,16 @@ body{
 }
 .main-index-art article{
   padding: 10px 20px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   border-radius: 2px;
 }
+.main-index-art article header h2{
+  border-bottom: 1px solid #dcdcdc;
+  margin-bottom: 2px;
+  color: #292929;
+  font-size: 22px;
+}
+
 .asidebox{
   padding: 10px 20px;
   border-radius: 2px;
@@ -76,6 +89,10 @@ body{
   padding: 2px 5px;
   color: #ff0043;
   border: 1px solid #ff0043;
+}
+.meta-data, .meta-data span{
+  color: #adadad;
+  margin-bottom: 15px;
 }
 .main-index-art{
 
