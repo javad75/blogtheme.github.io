@@ -160,6 +160,23 @@ body{
 .comment-body{
   color: #404040;
 }
+.formField2 label {
+    float: right !important;
+    width: 100px;
+    text-align: right !important;
+    padding-left: 8px;
+}
+.formField2 .fldcontent {
+    padding-left: 3px;
+    margin-right: 0 !important;
+}
+.comment-add-form{
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 2px;
+  border: 1px solid #d0d0d0;
+  margin-bottom: 50px;
+}
 .main-index-art{
 
 }
