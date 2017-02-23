@@ -50,9 +50,33 @@
 }
 
 *, html, body, h1, h2, h3, h4, h5, h6, span, p, div, input{
-  font-family: Tahoma, sans-serif, Arial;
+  font-family: IRANSans, Tahoma, sans-serif, Arial;
 }
-
+body{
+  background-color: #eee;
+}
+.main-index-art article{
+  background-color: #fff;
+}
+.main-index-art article{
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border-radius: 2px;
+}
+.asidebox{
+  padding: 10px 20px;
+  border-radius: 2px;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+.redmore{
+  border-radius: 2px;
+  padding: 5px 10px;
+  border-radius: 2px;
+  padding: 2px 5px;
+  color: #ff0043;
+  border: 1px solid #ff0043;
+}
 .main-index-art{
 
 }
