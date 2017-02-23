@@ -69,11 +69,15 @@ body{
   margin-bottom: 30px;
   border-radius: 2px;
 }
+.main-index-art article p{
+  font-size: 16px;
+  font-weight: 300;
+}
 .main-index-art article header h2{
   border-bottom: 1px solid #dcdcdc;
   margin-bottom: 2px;
   color: #292929;
-  font-size: 22px;
+  font-size: 24px;
 }
 
 .asidebox{
