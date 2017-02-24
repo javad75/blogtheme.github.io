@@ -79,6 +79,9 @@ body{
   color: #292929;
   font-size: 24px;
 }
+.main-index-art article h2 span{
+	font-weight: 400px;
+}
 .title-blog{
   color: #2f2f2f;
   font-size: 30px;
