@@ -69,7 +69,7 @@ body{
   margin-bottom: 30px;
   border-radius: 2px;
 }
-.main-index-art article p, .main-index-art article div, .main-index-art article p span{
+.main-index-art article p, .main-index-art article div, .main-index-art article div span, .main-index-art article p span{
   font-size: 15px !important;
   font-weight: 300 !important;
 }
