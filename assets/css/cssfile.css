@@ -69,7 +69,7 @@ body{
   margin-bottom: 30px;
   border-radius: 2px;
 }
-.main-index-art article p, .main-index-art article div, .main-index-art article span{
+.main-index-art article p, .main-index-art article div, .main-index-art article p span{
   font-size: 15px !important;
   font-weight: 300 !important;
 }
@@ -80,7 +80,7 @@ body{
   font-size: 24px;
 }
 .main-index-art article h2 span{
-	font-weight: 400px;
+	font-weight: 400px !important;
 }
 .title-blog{
   color: #2f2f2f;
