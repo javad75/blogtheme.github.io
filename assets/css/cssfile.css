@@ -123,8 +123,12 @@ body{
 .meta-date-time, .date-time{
   display: inline-block;
 }
-.meta-date-time, .meta-post-author, .meta-post-author{
+.meta-date-time, .meta-post-author, .meta-post-author, .meta-categories{
   display: inline-block;
+}
+.meta-categories{
+	border-left: 1px solid #c3c3c3;
+	padding: 0 4px;
 }
 .meta-post-author {
   border-right: 1px solid #c3c3c3;
