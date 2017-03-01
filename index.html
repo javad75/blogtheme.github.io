@@ -1,1 +1,189 @@
-<p>index site</p>
+<!DOCTYPE html><html class="no-js" lang="fa" dir="rtl"><head>
+		<meta name="google-site-verification" content="FoLQXZoYzjujKxuOjbf26fzVFN9vEN5ypbEajbY1SU8">
+    <meta charset="utf-8">
+    <head:meta></head:meta>
+    <head:script></head:script>
+    <head:style></head:style>
+    <meta name="googlebot" content="index, follow">
+    <meta name="robots" content="index, follow">
+    <meta name="country" content="IR">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#4a4c52">
+    <link rel="stylesheet" href="https://javad75.github.io/blogtheme.github.io/assets/css/app.css">
+    <link rel="stylesheet" href="https://javad75.github.io/blogtheme.github.io/assets/css/cssfile.css">
+    <!--<link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/cssfile.css">!-->
+  </head>
+  <body>
+    <div class="row">
+      <div class="large-12 columns">
+				<check:if index_selected>
+        <a href="(*blog_link*)"><h1 class="title-blog">(*blog_title*)</h1></a>
+				</check:if>
+
+				<check:if not index_selected>
+				<a href="(*blog_link*)"><h2 class="title-blog">(*blog_title*)</h2></a>
+				</check:if>
+
+      </div>
+    </div>
+    <div class="row">
+      <main class="large-8 columns">
+        <div class="main-index-art">
+
+        <box:post_detail>
+          <article class="clearfix">
+            <header>
+              <a href="(*post_link*)"><h1>(*post_title*)</h1></a>
+            </header>
+            <div class="meta-data">
+							<div class="meta-categories">
+								<box:post_categories>موضوع : <span><view:post_categories>(*category_name*)</view:post_categories></span></box:post_categories>
+							</div>
+              <div class="meta-date-time">
+                <span>تاریخ انتشار:</span>
+                <div class="date-time">
+									<span>(*post_date format="%d"*) (*post_date format="%B"*) (*post_date format="%y"*)</span>
+                </div>
+              </div>
+
+              <div class="meta-post-author">
+                نوشته شده توسط:
+                <span class="post-author">(*post_author*)</span>
+              </div>
+
+            </div>
+
+            <div class="post-content">(*post_full_content*)</div>
+
+          </article>
+
+          <box:post_comments>
+          <div class="clearfix" id="comments">
+            <div class="comments-msb-box clearfix large-12 columns">
+              <span class="comments-0">نظرات <a class="comment_count" href="(*post_link*)#comments"> ((*post_comment_count*))</a></span>
+              <check:if not post_comment_count>
+                <div class="text-center">هیچ نظری هنوز ثبت نشده است</div>
+              </check:if>
+            </div>
+
+            <view:post_comments>
+            <div class="users-comments clearfix large-12 columns padding-0">
+              <div class="padding-comment clearfix">
+                <div class="comment-name float-right">(*comment_fullname*)</div>
+                <div class="float-left">(*comment_date format="%d %B %y ، %H:%M"*)</div>
+              </div>
+              <div class="clearfix comment-body padding-comment">
+                (*comment_body*)
+              </div>
+
+            </div>
+            </view:post_comments>
+          </div>
+          </box:post_comments>
+
+          <check:if post_has_send_comment>
+            <a name="send_comment"></a>
+            <div class="align">
+              <div class="comment-add-form">
+                (*comment_add_form*)
+              </div>
+            </div><!-- align -->
+          </check:if>
+
+        </box:post_detail>
+
+        <box:post_list>
+        <view:post_list>
+          <article class="clearfix">
+            <header>
+              <a href="(*post_link*)"><h2>(*post_title*)</h2></a>
+            </header>
+            <div class="meta-data">
+							<div class="meta-categories">
+								<box:post_categories>موضوع : <span><view:post_categories>(*category_name*)</view:post_categories></span></box:post_categories>
+							</div>
+              <div class="meta-date-time">
+                <span>تاریخ انتشار:</span>
+                <div class="date-time">
+                  <span>(*post_date format="%d"*) (*post_date format="%B"*) (*post_date format="%y"*)</span>
+                </div>
+              </div>
+
+              <div class="meta-post-author">
+                نوشته شده توسط:
+                <span class="post-author">(*post_author*)</span>
+              </div>
+
+            </div>
+
+            <div class="post-content">(*post_summary*)</div>
+
+            <a href="(*post_link*)" class="clearfix float-left redmore">ادامه مطلب</a>
+          </article>
+        </view:post_list>
+        </box:post_list>
+        </div>
+        <box:pagination>
+  				<div class="pagination">
+  					<check:if page_prev>
+  						<a class="pagePrev" href="(*page_prev*)">قبلی</a>
+  					</check:if>
+  					<div class="pagesList">
+  						<view:pages spec="5,2,4,2,3,2">
+  							<check:if page_num>
+  								<a class="(*page_current*)" href="(*page_link*)">(*page_num*)</a>
+  							</check:if>
+  							<check:if not page_num>
+  								<span class="spacer">. . .</span>
+  							</check:if>
+  						</view:pages>
+  					</div>
+  					<check:if page_next>
+  						<a class="pageNext" href="(*page_next*)">بعدی</a>
+  					</check:if>
+  				</div>
+  				<div class="clear"></div>
+  			</box:pagination>
+      </main>
+
+      <aside class="large-4 columns">
+        <div class="wp-aside">
+          <box:recent_posts>
+          <div class="asidebox">
+            <span class="aside-title">نوشته های تازه</span>
+            <view:recent_posts>
+            <a href="(*post_link*)"><p>(*post_title*)</p></a>
+            </view:recent_posts>
+          </div>
+          </box:recent_posts>
+
+          <check:if index_page1_selected>
+
+					<box:links>
+					<div class="asidebox">
+					<div class="sidebox">
+						<div class="sidebox-title">پیوندها</div>
+						<div class="sidebox-content">
+							<ul>
+								<view:links>
+									<li>
+										<a alt="(*link_alt*)" href="(*link_url*)">(*link_name*)</a>
+									</li>
+								</view:links>
+							</ul>
+						</div>
+					</div>
+					</div>
+				</box:links>
+
+				</check:if>
+
+        </div>
+
+      <aside>
+    </aside></aside></div>
+    <!--<script src="assets/js/app.js"></script>
+    <script src="assets/js/javascriptfile.js"></script>!-->
+
+</body></html>

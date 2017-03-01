@@ -73,7 +73,7 @@ body{
   font-size: 15px !important;
   font-weight: 300 !important;
 }
-.main-index-art article header h2{
+.main-index-art article header h2, .main-index-art article header h1{
   border-bottom: 1px solid #dcdcdc;
   margin-bottom: 2px;
   color: #292929;
